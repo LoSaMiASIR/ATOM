@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="#"
+	xml:lang="es"
+	xml:base="#">
+	<title>Ejercicio Atom</title>
+	<link href="https://github.com/LoSaMiASIR/ATOM.git"/>
+	<updated>2020-12-13T18:30:02Z</updated>
+	<author>
+		<name>Miguel Ángel López Sánchez</name>
+	</author>
+	<category term="Ejercicios para clase" />
+	<id>https://github.com/LoSaMiASIR</id>
+	<rights type="html">&copy; 2022 Miguel López</rights>
+	
+	<entry>
+		<title>Página Web</title>
+		<link href="https://fwhibbit.es/"/>
+		<id>https://github.com/LoSaMiASIR</id>
+		<updated>2020-12-13T18:30:02Z</updated>
+		<author>
+			<name>Miguel Ángel López Sánchez</name>
+		</author>
+		<summary>Página sobre los tipos de licencias.</summary>
+	</entry>
+	
+	<entry>
+		<title>Código HTML</title>
+		<content type="xhtml">
+			<div>
+				<h1>Esto es una prueba</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet metus id dolor pretium dignissim ut in lacus. Vestibulum a ipsum urna. </p>
+			</div>
+		</content>
+		<id>https://github.com/LoSaMiASIR</id>
+		<updated>2020-12-13T18:30:02Z</updated>
+		<author>
+			<name>Miguel Ángel López Sánchez</name>
+		</author>
+		<summary>Prueba de XHTML en Atom.</summary>
+	</entry>
+	
+	<entry>
+		<title>Documento PDF</title>
+		<id>https://github.com/LoSaMiASIR</id>
+		<updated>2020-12-13T18:30:02Z</updated>
+		<author>
+			<name>Miguel Ángel López Sánchez</name>
+		</author>
+		<summary>Documento PDF de prueba para Atom.</summary>
+		<link 
+			rel="enclosure"
+			xml:lang="es-es"
+			title="Documento de prueba"
+			type="application/pdf"
+			hreflang="es-es"
+			href="./multimedia/Sindicacion_de_contenidos.pdf" />
+	</entry>
+	
+	<entry>
+		<title>Archivo Multimedia</title>
+		<id>https://github.com/LoSaMiASIR</id>
+		<updated>2020-12-13T18:30:02Z</updated>
+		<author>
+			<name>Miguel Ángel López Sánchez</name>
+		</author>
+		<summary>Canción "Lost on you" de la cantante LP.</summary>
+		<link 
+			rel="enclosure"
+			type="audio/mpeg"
+			title="MP3"
+			href="./multimedia/Lost_on_you.mp3"
+			length="1234" />
+	</entry>
+</feed>
